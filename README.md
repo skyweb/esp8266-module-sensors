@@ -1,12 +1,14 @@
 # ESP8266 Sensors
 
-## PIN OUT
+## PINOUT
 
 | **LABEL**     | **GPIO**     | **INPUT**       | **OUTPUT**           | **NOTES**         |
 |---------------|--------------|-----------------|----------------------|-------------------|
 | **D0**        | **GPIO16**   | no interrupt    | no PWM or I2C support| HIGH AT BOOT      |
 | **D1**        | **GPIO5**    | OK              | OK                   | SCL (I2C)         |
 | **D2**        | **GPI04**    | OK              | OK                   | SDA (I2C)         |
+
+h2. Sensors
 
 ## 1. DHT11/DHT22 Humidity and Temperature Sensor
 
